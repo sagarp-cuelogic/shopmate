@@ -4,7 +4,7 @@ import { ProductList } from "./components/ProductList";
 function App() {
   return (
     <>
-      <section>
+      <section className="App">
         <h1>Product List</h1>
         <ProductList />
       </section>
