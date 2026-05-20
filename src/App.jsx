@@ -1,13 +1,12 @@
-import { useState } from "react";
 import "./App.css";
+import { ProductList } from "./components/ProductList";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <section id="center">
-        <h1>Hello Json Server</h1>
+      <section>
+        <h1>Product List</h1>
+        <ProductList />
       </section>
     </>
   );
